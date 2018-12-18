@@ -5,6 +5,7 @@
   "version": "0.1.2",
   "main": "index.js",
   "scripts": {
+    "start": "npm i superagent"
     "start": "node index.js"
   },
   "dependencies": {
