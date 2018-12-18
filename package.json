@@ -1,0 +1,14 @@
+
+{
+  "name": "Rulavi",
+  "description": "",
+  "version": "0.1.2",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "discord.js": "11.1.0",
+    "request": "2.81.0"
+  }
+}
