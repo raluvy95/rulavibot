@@ -9,7 +9,6 @@
     "npm": "6.4.1"
   },
   "scripts": {
-    "start": "npm i superagent"
     "start": "node index.js"
   },
   "dependencies": {
