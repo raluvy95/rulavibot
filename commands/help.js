@@ -14,7 +14,6 @@ module.exports.run = async (bot, message, args) => {
     .addField("Image", "`doge`, `achievement`, `meme`")
     .setTimestamp()
     .setFooter(`Use $ before using commands`);
-
     message.author.send(botembed);
 }
 
