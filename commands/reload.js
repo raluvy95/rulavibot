@@ -3,7 +3,7 @@ const fs = require("fs");
 
 module.exports.run = (bot, message, args) => {
 
-    if (message.author.id !== "YOUR_USER_ID") return message.channel.send("⛔ **ACCESS DENIED**");
+    if (message.author.id !== "390540063609454593") return message.channel.send("⛔ **ACCESS DENIED**");
 
     try {
         delete require.cache[require.resolve(`./${args[0]}.js`)];
