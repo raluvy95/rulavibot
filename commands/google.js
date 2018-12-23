@@ -18,8 +18,6 @@ module.exports.run = async (bot, message, args) => {
 	.setFooter("You're avatar", message.author.avatarURL);
           
 	message.channel.send(embed);
-	message.author.send(`You have searched for ${link} in ${ message.guild.name}`);
-  
 }
 
 
