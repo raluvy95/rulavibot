@@ -20,7 +20,7 @@ api.getUser({u: username}).then(user => {
   .setThumbnail(`http://s.ppy.sh/a/${user.id}}`)
   .setColor("#D0436A")
   .addField('Nickname', user.name, true)
-  .addField('PP', Math.round(user.pp.raw), true)
+  .addField('Performance Points', Math.round(user.pp.raw), true)
   .addField('Rank', user.pp.rank, true)
   .addField('Level', Math.round(user.level), true)
   .addBlankField()
