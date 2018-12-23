@@ -8,7 +8,7 @@ module.exports.run = async (bot, message, args) => {
     .setTitle("Help")
     .setDescription("List Commands.")
     .setColor("#FFA500")
-    .addField("Fun", "`8ball`, `ask`, `kill`, `say`, `sayd`, `vote`")
+    .addField("Fun", "`8ball`, `ask`, `kill`, `rps`, `say`, `sayd`, `vote`")
     .addField("Info", "`botinfo`, `help`, `ping`")
     .addField("Moderation", "`kick`, `ban`, `purge`")
     .addField("Image", "`doge`, `achievement`, `meme`")
