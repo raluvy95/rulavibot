@@ -4,10 +4,6 @@ const urban = require('relevant-urban');
 module.exports.run = async (bot, message, args, tools) => {
   if (!args[0]) return message.channel.send(`***Please specify some text!***`);
   let res = await urban(args.join(' '))
-  .catch(e => {
-    return message.channel.send('***Sorry, that word was not found!***');
-  });
-
   const embed = new Discord.MessageEmbed()
     .setColor('#ADD8E6')
     .setTitle(res.word)
