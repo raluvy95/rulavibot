@@ -16,5 +16,5 @@ message.channel.send(
 };
 
 exports.help = {
-  name: "flip",
+  name: "flip"
 };
