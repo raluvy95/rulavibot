@@ -32,7 +32,7 @@ module.exports.run = (client, message, args) => {
             .addField("Win Rate", ~~result.wr + "%")
             .addField("Kills", + result.kills)
             .addField("K/D", + result.kd)
-            .setColor("#36393F")
+            .setColor("#9b00ff")
             .setURL(url)
             .setThumbnail(result.skinUrl);
 
