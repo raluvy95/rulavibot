@@ -5,7 +5,7 @@ module.exports.run = (bot, message, args, tools) => {
     let user = message.mentions.users.first() || message.author;
     
     const embed = new Discord.MessageEmbed()
-        .setColor(0xffffff)
+        .setColor("#006400")
         .setTitle(user.username)
         .setImage(user.avatarURL({size: 2048}))
         
