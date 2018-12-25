@@ -1,6 +1,6 @@
 const Discord = require('discord.js')
 
-module.exports.run = (client, message, args, tools) => {
+module.exports.run = (bot, message, args, tools) => {
     
     let user = message.mentions.users.first() || message.author;
     
