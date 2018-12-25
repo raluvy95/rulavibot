@@ -11,7 +11,7 @@ module.exports.run = (bot, message, args, tools) => {
    
   if(args[0] === sreverse) {
   
-  sreverse = `${args.join(' ')}..Wait... You broke it!`
+  sreverse = `${args.join(' ')}  Wait... You broke it!`
   
   }
   const reverseEmbed = new Discord.RichEmbed()
