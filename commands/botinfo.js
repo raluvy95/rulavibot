@@ -13,6 +13,7 @@ module.exports.run = async (bot, message, args) => {
     .setThumbnail(bicon)
     .addField("Total Servers", bot.guilds.size, inline=true)
     .addField("Total Users", bot.users.size, inline=true)
+    .addField("Total Channels", bot.channels.size, inline=true)
     .addField("Library", "discord.js", inline=true)
     .addField("Owner Bot", owneruser, inline=true)
     .addField("Uptime", days+"d "+hours+"h "+minutes+"m "+seconds+"s", inline=true)
