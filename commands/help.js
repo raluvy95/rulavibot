@@ -16,7 +16,7 @@ module.exports.run = async (bot, message, args) => {
     .setDescription("Join [Support Server]( https://discord.gg/bYYyDVU ) if you found bug/glitch command(s)!")
     .setColor("#FFA500")
     .addField("Fun", "`8ball`, `ask`, `flip`, `kill`, `reverse`, `rps`, `say`, `sayd`, `vote`")
-    .addField("Info", "`botinfo`, `help`, `osu`, `google`, `ping`, `serverinfo`, `userinfo`")
+    .addField("Info", "`botinfo`, `help`, `osu`, `google`, `ping`, `serverinfo`, `support`, `userinfo`")
     .addField("Moderation", "`kick`, `ban`, `purge`")
     .addField("Image", "`doge`, `achievement`, `meme`")
     .setTimestamp()
