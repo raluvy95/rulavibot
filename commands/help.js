@@ -2,7 +2,14 @@ const Discord = require("discord.js");
 
 module.exports.run = async (bot, message, args) => {
 
-  message.react("📬") 
+    message.react("📬") 
+    let user = message.author;
+    message.react("📬") 
+    message.channel.send('<a:Loading:465439021514883072> Loading...')
+    .then((message)=>{
+  setTimeout(function(){
+    message.edit(`${user}, **Check your direct messages for a list of commands!**`);
+  }, 10)});
     let bicon = bot.user.displayAvatarURL;
     let botembed = new Discord.RichEmbed()
     .setTitle("Help")
