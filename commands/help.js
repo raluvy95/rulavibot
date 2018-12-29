@@ -13,7 +13,7 @@ module.exports.run = async (bot, message, args) => {
     let bicon = bot.user.displayAvatarURL;
     let botembed = new Discord.RichEmbed()
     .setTitle("Help")
-    .setDescription("List Commands.")
+    .setDescription("Join [Support Server]( https://discord.gg/bYYyDVU ) if you found bug/glitch command(s)!")
     .setColor("#FFA500")
     .addField("Fun", "`8ball`, `ask`, `flip`, `kill`, `reverse`, `rps`, `say`, `sayd`, `vote`")
     .addField("Info", "`botinfo`, `help`, `osu`, `google`, `ping`, `serverinfo`, `userinfo`")
