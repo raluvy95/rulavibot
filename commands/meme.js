@@ -9,7 +9,7 @@ module.exports.run = async (bot, message, args) => {
     if(!{body}) return message.channel.send("OOF?! Try again.")
 
         let mEmbed = new Discord.RichEmbed()
-        .setAuthor("Random memes!")
+        .setAuthor(body.text)
         .setColor("#FFA500")
         .setImage(body.url)
         .setTimestamp()
