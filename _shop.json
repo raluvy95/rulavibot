@@ -1,0 +1,3 @@
+[{"id": 1, "item": "One diamond", "description": "Buy one diamond for 10k orbs", "cost": 10000, "costtype": 0, "rewards": {"diamond": "1"}},
+ {"id": 2, "item": "Cat Cube", "description": "Get a cat cube in your profile (aka `v!info`)", "cost": 100, "costtype": 1, "rewards": {"icon": "cat"}},
+ {"id": 3, "item": "1000 stars cube icon", "description": "Get a 1000 stars cube icon in your profile", "cost": 250, "costtype": 1, "rewards": {"icon": "100stars"}}]
